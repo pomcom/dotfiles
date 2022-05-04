@@ -1,0 +1,4 @@
+lxsession &
+nitrogen --restore &
+udiskie -t &
+volumeicon &
