@@ -1,0 +1,11 @@
+[http]
+	sslVerify = false
+[user]
+	name = pomcom
+	email = pomcom@mailbox.org
+[core]
+    editor = nvim
+[init]
+	defaultBranch = main
+[credential]
+	helper = cache
