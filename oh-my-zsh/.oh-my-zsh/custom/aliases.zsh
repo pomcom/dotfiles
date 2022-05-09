@@ -39,3 +39,4 @@ alias quad='dig +short txt id.server.on.quad9.net'
 
 alias pray='sudo pacman -Syu'
 
+alias lg='lazygit'
