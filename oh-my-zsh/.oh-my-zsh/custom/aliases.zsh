@@ -32,7 +32,10 @@ alias cat='bat'
 
 alias initscan='nmap -sC -sV -Pn -oN'
 alias deepscan='nmap -T4 -n -Pn -p- -o'
+alias c='clear'
 
 # and forget stuff
 alias quad='dig +short txt id.server.on.quad9.net'
-alias c='clear'
+
+alias pray='sudo pacman -Syu'
+
