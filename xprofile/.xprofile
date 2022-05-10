@@ -1,4 +1,4 @@
 lxsession &
 nitrogen --restore &
 udiskie -t &
-volumeicon &
+exec volumeicon &

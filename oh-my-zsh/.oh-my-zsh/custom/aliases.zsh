@@ -1,14 +1,10 @@
 # pomcom <pomcom@mailbox.org>
 
-
 # currently using zathura for pdf-viewing
 alias open='zathura'
 
-
-# lazy way for chaning alacritty-themes
 alias at='alacritty-themes'
 
-# tschuessi
 alias ende='shutdown -r now'
 alias lock='betterlockscreen -l'
 
@@ -16,7 +12,6 @@ alias lock='betterlockscreen -l'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
 
-# neovim
 alias v='nvim'
 alias vim='nvim'
 
@@ -29,14 +24,11 @@ alias cat='bat'
 
 
 #i am lazy
-
 alias initscan='nmap -sC -sV -Pn -oN'
 alias deepscan='nmap -T4 -n -Pn -p- -o'
 alias c='clear'
-
-# and forget stuff
-alias quad='dig +short txt id.server.on.quad9.net'
+alias v.kb='vboxmanage startvm Kali-Linux-ctf'
+alias v.wb='vboxmanage startvm windows_clean'
 
 alias pray='sudo pacman -Syu'
-
 alias lg='lazygit'
