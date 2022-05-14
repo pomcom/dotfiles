@@ -32,3 +32,5 @@ alias v.wb='vboxmanage startvm windows_clean'
 
 alias pray='sudo pacman -Syu'
 alias lg='lazygit'
+
+alias hg='history | grep'
