@@ -109,7 +109,13 @@ function(use)
       require('nvim-treesitter.install').update { with_sync = true }
     end,
   }
-
+  -- Vimtex
+  use {
+    'lervag/vimtex',
+    config = function()
+      require('pomcom.plugins.vimtex')
+    end,
+  }
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
