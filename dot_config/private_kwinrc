@@ -1,0 +1,90 @@
+[Activities][LastVirtualDesktop]
+0c68602c-6cae-4fa7-bb5d-c83aa9515041=791e6994-eb17-4127-a3c0-3ae3da1c09f4
+
+[Desktops]
+Id_1=d3963ec0-1c21-4c69-9d02-ae743fdbdba5
+Id_10=9fc79b12-5376-47a2-88bf-b032abf4df21
+Id_2=9a9ebe92-4f02-486c-a6d6-b98c1a4512d7
+Id_3=f35ca133-b683-46eb-847a-3e3c2314d907
+Id_4=9a5a2078-397f-43ef-8c9c-2c1ff2b829e0
+Id_5=4f1dc43f-962d-44d2-839c-c1dea7673282
+Id_6=abddb999-755f-4036-a4de-dbe27a7d546e
+Id_7=b5a4627e-d8c2-4126-befe-c9ae00b70bbd
+Id_8=57d2179f-6286-4752-bf4e-bc74d2f9bc89
+Id_9=791e6994-eb17-4127-a3c0-3ae3da1c09f4
+Name_1=Desktop 2
+Name_2=Desktop 3
+Name_3=Desktop 4
+Name_4=Desktop 5
+Name_5=Desktop 6
+Name_6=Desktop 7
+Name_7=Desktop 8
+Name_8=Desktop 9
+Name_9=Desktop 10
+Number=10
+Rows=1
+
+[Effect-blur]
+NoiseStrength=12
+
+[Effect-windowview]
+BorderActivateAll=5
+
+[Plugins]
+blurEnabled=true
+krohnkiteEnabled=true
+shakecursorEnabled=false
+slideEnabled=false
+videowallEnabled=false
+
+[Script-krohnkite]
+screenGapBetween=13
+screenGapBottom=15
+screenGapLeft=15
+screenGapRight=15
+screenGapTop=15
+
+[SubSession: 9b07a6f4-1e37-4e97-b611-921aa3f2e94e]
+active=-1
+count=0
+
+[TabBox]
+ActivitiesMode=0
+DesktopMode=2
+HighlightWindows=false
+LayoutName=compact
+Persistent=true
+
+[Tiling]
+padding=4
+
+[Tiling][66dcda66-293d-5fce-9563-871decedc0aa]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][8c3d1f0c-ea51-562b-86b0-dff563b5fabc]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][92e842d7-5928-5c43-884a-4912e7cc82ed]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][9f70bdab-e85a-5805-96ca-1f14f9e99118]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][d02c035d-eef0-5c68-aa2f-2e83d0ba08b1]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Tiling][e3d22c80-fc9e-5d3c-8d17-fb6ec825a006]
+tiles={"layoutDirection":"horizontal","tiles":[{"width":0.25},{"width":0.5},{"width":0.25}]}
+
+[Windows]
+ActiveMouseScreen=false
+SeparateScreenFocus=true
+
+[Xwayland]
+Scale=1.2
+
+[org.kde.kdecoration2]
+ButtonsOnLeft=MFS
+ButtonsOnRight=HIAX
+library=org.kde.klassy
+theme=Klassy

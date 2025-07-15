@@ -1,0 +1,212 @@
+[Global plugin config]
+manageProfile=false
+
+[SSH Config][apex]
+hostname=192.168.178.38
+identifier=apex
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=~/.ssh/yubikey-pomcom.pub
+useSshConfig=true
+username=pomcom
+
+[SSH Config][backup]
+hostname=u356346.your-storagebox.de
+identifier=backup
+importedFromSshConfig=true
+port=23
+profileName=Profile 1
+sshkey=/home/pomcom/.ssh/storagebox-ed25519
+useSshConfig=true
+username=u356346
+
+[SSH Config][blog.uberspace]
+hostname=blog.uberspace
+identifier=blog.uberspace
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=~/.ssh/pomcom-uberspace-blog
+useSshConfig=true
+username=pomcom
+
+[SSH Config][cicd.skyway.porsche]
+hostname=pages.skyway.porsche.com
+identifier=cicd.skyway.porsche
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=~/.ssh/customer/gitlab-porsche.ed25519
+useSshConfig=true
+username=
+
+[SSH Config][disposable]
+hostname=segfault.net
+identifier=disposable
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=
+useSshConfig=true
+username=root
+
+[SSH Config][git.spike.local]
+hostname=git.spike.local
+identifier=git.spike.local
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=~/.ssh/reply_git_id_ed25519
+useSshConfig=true
+username=
+
+[SSH Config][gitea-server]
+hostname=gitea-server
+identifier=gitea-server
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=/home/pomcom/.ssh/git.ed25519
+useSshConfig=true
+username=pcm
+
+[SSH Config][github.com]
+hostname=github.com
+identifier=github.com
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=/home/pomcom/.ssh/git.ed25519
+useSshConfig=true
+username=git
+
+[SSH Config][lazyarrange]
+hostname=adm.segfault.net
+identifier=lazyarrange
+importedFromSshConfig=true
+port=
+profileName=
+sshkey=~/.ssh/id_sf-adm-segfault-net
+useSshConfig=true
+username=root
+
+[SSH Config][media]
+hostname=192.168.178.170
+identifier=media
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=~/.ssh/yubikey-pomcom.pub
+useSshConfig=true
+username=pomcom
+
+[SSH Config][nextcloud.uberspace]
+hostname=nextcloud.uberspace
+identifier=nextcloud.uberspace
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=~/.ssh/uberspace_ed25519
+useSshConfig=true
+username=kumulus
+
+[SSH Config][pcm.uber.space]
+hostname=pcm.uber.space
+identifier=pcm.uber.space
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=~/.ssh/gitea.ed25519
+useSshConfig=true
+username=pcm
+
+[SSH Config][playground]
+hostname=playground
+identifier=playground
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=
+useSshConfig=true
+username=root
+
+[SSH Config][pomcom.basho]
+hostname=pomcom.basho
+identifier=pomcom.basho
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=~/.ssh/sfs-hetzner.ed25519
+useSshConfig=true
+username=root
+
+[SSH Config][proxmox]
+hostname=65.21.233.58
+identifier=proxmox
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=/home/pomcom/.ssh/hetzner_rsa
+useSshConfig=true
+username=root
+
+[SSH Config][proxy]
+hostname=proxy
+identifier=proxy
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=
+useSshConfig=true
+username=admin
+
+[SSH Config][srl.nessus]
+hostname=srl.nessus
+identifier=srl.nessus
+importedFromSshConfig=true
+port=22348
+profileName=Profile 1
+sshkey=~/.ssh/srl-nessus.ed25519
+useSshConfig=true
+username=dominik
+
+[SSH Config][srl.redteam.bloodhound]
+hostname=116.202.203.230
+identifier=srl.redteam.bloodhound
+importedFromSshConfig=true
+port=40068
+profileName=Profile 1
+sshkey=~/.ssh/srl-bloodhound.ed25519
+useSshConfig=true
+username=lukas
+
+[SSH Config][srl.redteam.elastic.cookie]
+hostname=173.212.232.228
+identifier=srl.redteam.elastic.cookie
+importedFromSshConfig=true
+port=63356
+profileName=Profile 1
+sshkey=~/.ssh/srl-cookies-shared.ed25519
+useSshConfig=true
+username=project-cookie-sessiontakeover
+
+[SSH Config][ssh.gitlab.srlabs.de]
+hostname=ssh.gitlab.srlabs.de
+identifier=ssh.gitlab.srlabs.de
+importedFromSshConfig=true
+port=45983
+profileName=
+sshkey=~/.ssh/srlabs.ed25519
+useSshConfig=true
+username=git
+
+[SSH Config][watchpi]
+hostname=192.168.178.42
+identifier=watchpi
+importedFromSshConfig=true
+port=
+profileName=Profile 1
+sshkey=~/.ssh/yubikey-pomcom.pub
+useSshConfig=true
+username=watchpi
